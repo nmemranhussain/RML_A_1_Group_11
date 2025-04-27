@@ -2,7 +2,7 @@
 
 ### Basic Information
 
-* **Person or organization developing model**: Patrick Hall, `jphall@gwu.edu` & N M Emran Hussain 'nmemran.hussain@gwu.edu'
+* **Person or organization developing model**: Patrick Hall, `jphall@gwu.edu` & N M Emran Hussain `nmemran.hussain@gwu.edu`
 * **Model date**: May, 2025
 * **Model version**: 1.0
 * **License**: MIT
