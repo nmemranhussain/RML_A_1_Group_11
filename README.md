@@ -109,30 +109,23 @@ Figure 5. Plot partial dependence for all features and models
 Figure 5. Plot partial dependence for all features and models
 
 ![air_v_auc](AIR_v_AUC.jpg)
-Figure 6. Model selection via quality and fairness ( AIR vs. AUC)
+Figure 6. Model selection via quality and fairness (AIR vs. AUC)
 
 ![model extration attack](visualization_simulated_data_for_extraction_attack.jpg)
-Figure 6. Model Extraction Attack (Simulated Data)
+Figure 7. Model Extraction Attack (Simulated Data)
 
 ![stolen model](example_of_stolen_model.jpg)
-Figure 6. Stolen Model
+Figure 8. Stolen Model
 
 ![variable importancel](variable_importance.jpg)
-Figure 6. Variable Importance When the Model is Attacked
+Figure 9. Variable Importance When the Model is Attacked
 
 ![sensitivity analysis](sensitivity_analysis.jpg)
-Figure 6. Sensitivity Analysis: Stress Testing using Validation Data
+Figure 10. Sensitivity Analysis: Stress Testing using Validation Data
+
+![residual analysis](global_logloss_residuals.jpg)
+Figure 10. Residual Analysis using Global Logloss Residual
 
 
 
-
-Table 2. Validation AIR values for race and sex groups. 
-
-(**HINT**: Test AUC taken from https://github.com/jphall663/GWU_rml/blob/master/assignments/model_eval_2023_06_21_12_52_47.csv)
-
-#### Correlation Heatmap
-
-![Correlation Heatmap](download.png)
-
-Figure 1. Correlation heatmap for input features. 
 
