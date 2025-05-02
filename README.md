@@ -4,7 +4,7 @@
 
 * **Person or organization developing model**: Patrick Hall, `jphall@gwu.edu` & N M Emran Hussain `nmemran.hussain@gwu.edu`
 * **Model date**: May, 2025
-* **Model version**: numpy: 2.0.2, pandas: 2.2.2, scikit-learn: 1.6.1, matplotlib: 3.10.0, seaborn: 0.13.2, Python 3.11.12
+* **Model version**: 1.0 
 * **License**: MIT
 * **Model implementation code**: [Assignment_1](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_1_template.ipynb), [Assignment_2](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_2_template.ipynb), [Assignment_3](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_3_template_s_309.ipynb), [Assignment_4](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_4_template_final.ipynb), [Assignment_5](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_5_template.ipynb)
  
@@ -49,7 +49,7 @@
 * **Column(s) used as target(s) in the final model**: 'DELINQ_NEXT'
 * **Type of model**: Decision Tree 
 * **Software used to implement the model**: Python, scikit-learn
-* **Version of the modeling software**: 0.22.2.post1
+* **Version of the modeling software**: numpy: 2.0.2, pandas: 2.2.2, scikit-learn: 1.6.1, matplotlib: 3.10.0, seaborn: 0.13.2, Python 3.11.12
 * **Hyperparameters or other settings of your model**: 
 ```
 rem_params = {'max_bins': 512,
