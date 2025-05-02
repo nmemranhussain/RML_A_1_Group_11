@@ -50,7 +50,7 @@
 * **Type of model**: Decision Tree 
 * **Software used to implement the model**: Python, scikit-learn
 * **Version of the modeling software**: numpy: 2.0.2, pandas: 2.2.2, scikit-learn: 1.6.1, matplotlib: 3.10.0, seaborn: 0.13.2, Python 3.11.12
-* **Hyperparameters or other settings of your model**: 
+* **Hyperparameters or other settings of the model**: 
 ```
 rem_params = {'max_bins': 512,
               'max_interaction_bins': 16,
