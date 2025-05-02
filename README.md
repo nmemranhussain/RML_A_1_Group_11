@@ -33,8 +33,8 @@
 * **Source of training data**: [HMDA Trainning Datasets](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/hmda_train_preprocessed.zip)
 * **How training data was divided into training and validation data**: 50% training, 25% validation, 25% test
 * **Number of rows in training and validation data**:
-* *Train data': rows = 112253, columns = 23
-* *Validation data': rows = 48085, columns = 23
+* **Train data**: rows = 112253, columns = 23
+* **Validation data**: rows = 48085, columns = 23
   
 ### Test Data
 * **Source of test data**: [HMDA Test Datasets](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/hmda_test_preprocessed.zip)
