@@ -93,10 +93,18 @@ Figure 2. Correlation Heatmap
 ![compare global features across models](compare_global_features_across_models.jpg) 
 Figure 3. Comparing Global Featuress Across Models
 
-![Comparing local features across models](compare_local_features_across_models.jpg) 
+![compare local features across models](compare_local_features_across_models.jpg) 
 Figure 4. Compare Local Features Across Models
 
-![plot Patial dependence for all features and models](plot_pd_for_all features&models_1.jpg, plot_pd_for_all features&models_2.jpg, plot_pd_for_all features&models_3.jpg, plot_pd_for_all features&models_4.jpg ) 
+![plot_pd_for_all features&models_1.jpg](plot_pd_for_all features&models_1.jpg) 
+Figure 4. Compare Local Features Across Models
+
+
+
+
+![plot Patial dependence for all features and model](plot_pd_for_all features&models_1.jpg) 
+
+, plot_pd_for_all features&models_2.jpg, plot_pd_for_all features&models_3.jpg, plot_pd_for_all features&models_4.jpg) 
 Figure 5. Plot partial dependence for all features and models
 
 
