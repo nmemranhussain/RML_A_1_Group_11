@@ -80,16 +80,7 @@ rem_x_names = ['property_value_std',
 
 | Train AUC | Validation AUC | Test AUC |
 | ------ | ------- | -------- |
-| 0.3456 | 0.7891  | 0.7687* |
-
-Table 1. AUC values across data partitions. 
-
-| Group | Validation AIR |
-|-------|-----|
-| Black vs. White | 0.8345 |
-| Hispanic vs. White | 0.8765 |
-| Asian vs. White | 1.098 |
-| Female vs. Male | 1.245 |
+| 0.7823 | 0.7836  | 0.7832* |
 
 Table 2. Validation AIR values for race and sex groups. 
 
