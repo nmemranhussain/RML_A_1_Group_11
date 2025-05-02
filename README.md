@@ -111,7 +111,8 @@ Figure 5. Plot partial dependence for all features and models
 ![air_v_auc](AIR_v_AUC.jpg)
 Figure 6. Model selection via quality and fairness ( AIR vs. AUC)
 
-
+![model extration attack](visualization_simulated_data_for_extraction_attack.jpg)
+Figure 6. Model Extraction Attack (Simulated Data)
 
 
 
