@@ -6,9 +6,8 @@
 * **Model date**: May, 2025
 * **Model version**: numpy: 2.0.2, pandas: 2.2.2, scikit-learn: 1.6.1, matplotlib: 3.10.0, seaborn: 0.13.2, Python 3.11.12
 * **License**: MIT
-* **Model implementation code**:
- [DNSC_6301_Example_Project.ipynb](https://github.com/jphall663/GWU_DNSC_6301_project/blob/main/DNSC_6301_Example_Project.ipynb)
-
+* **Model implementation code**: [Assignment_1](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_1_template.ipynb), [Assignment_2](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_2_template.ipynb), [Assignment_3](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_3_template_s_309.ipynb), [Assignment_4](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_4_template_final.ipynb), [Assignment_5](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_5_template.ipynb)
+ 
 ### Intended Use
 * **Primary intended uses**: This model is an *example* probability of default classifier, with an *example* use case for determining eligibility for a credit line increase.
 * **Primary intended users**: Students in GWU DNSC 6301 bootcamp.
