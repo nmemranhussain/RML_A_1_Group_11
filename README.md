@@ -76,14 +76,16 @@ rem_x_names = ['property_value_std',
 ```
 ### Quantitative Analysis
 
-* Models were assessed primarily with AUC and AIR. See details below:
+* Models were assessed primarily with AUC:
 
 | Train AUC | Validation AUC | Test AUC |
 | ------ | ------- | -------- |
 | 0.7823 | 0.7836  | 0.7832* |
 
+#### Plots related with data & model
 
-Figure 1. Compare global feature importance across models
+![Basic Data Exploration](basic_data_exploration.jpg) 
+Figure 1. Basic Data Exploration
 
 Table 2. Validation AIR values for race and sex groups. 
 
