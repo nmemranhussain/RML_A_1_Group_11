@@ -108,6 +108,13 @@ Figure 5. Plot partial dependence for all features and models
 ![Plot Partial Difference for all features and models](plot_pd_4.jpg)
 Figure 5. Plot partial dependence for all features and models
 
+![air_v_auc](Air_v_AUC.jpg)
+Figure 6. Model selection via quality and fairness ( AIR vs. AUC)
+
+
+
+
+
 Table 2. Validation AIR values for race and sex groups. 
 
 (**HINT**: Test AUC taken from https://github.com/jphall663/GWU_rml/blob/master/assignments/model_eval_2023_06_21_12_52_47.csv)
