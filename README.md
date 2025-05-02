@@ -82,7 +82,8 @@ rem_x_names = ['property_value_std',
 | ------ | ------- | -------- |
 | 0.7823 | 0.7836  | 0.7832* |
 
-Table 1. 
+
+Figure 1. Compare global feature importance across models
 
 Table 2. Validation AIR values for race and sex groups. 
 
