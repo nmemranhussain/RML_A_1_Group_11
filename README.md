@@ -33,9 +33,9 @@
 * **Source of training data**: [HMDA Trainning Datasets](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/hmda_train_preprocessed.zip)
 * **How training data was divided into training and validation data**: 50% training, 25% validation, 25% test
 * **Number of rows in training and validation data**:
-  * Training Set: 90084 rows, 23 columns
-  * Validation Set: 45042 rows, 23 columns
-
+  *Train data rows = 112253, columns = 23
+  *Validation data rows = 48085, columns = 23
+  
 ### Test Data
 * **Source of test data**: [HMDA Test Datasets](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/hmda_test_preprocessed.zip)
 * **Test Set**: 45043 rows, 23 columns
@@ -84,8 +84,23 @@ rem_x_names = ['property_value_std',
 
 #### Plots related with data & model
 
-![Basic Data Exploration](basic_data_exploration.jpg) 
+![basic data exploration](basic_data_exploration.jpg) 
 Figure 1. Basic Data Exploration
+
+![correlation map](correlation_map.jpg) 
+Figure 2. Correlation Heatmap
+
+![compare global features across models](compare_global_features_across_models.jpg) 
+Figure 3. Comparing Global Featuress Across Models
+
+![Comparing local features across models](compare_local_features_across_models.jpg) 
+Figure 4. Compare Local Features Across Models
+
+![plot Patial dependence for all features and models](plot_pd_for_all features&models_1.jpg, plot_pd_for_all features&models_2.jpg, plot_pd_for_all features&models_3.jpg, plot_pd_for_all features&models_4.jpg ) 
+Figure 5. Plot partial dependence for all features and models
+
+
+
 
 Table 2. Validation AIR values for race and sex groups. 
 
