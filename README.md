@@ -82,7 +82,7 @@ rem_x_names = ['property_value_std',
 | ------ | ------- | -------- |
 | 0.7823 | 0.7836  | 0.7832* |
 
-#### Plots related with data & model
+* Plots related with data & model
 
 ![basic data exploration](basic_data_exploration.jpg) 
 Figure 1. Basic Data Exploration
