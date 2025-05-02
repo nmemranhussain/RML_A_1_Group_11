@@ -96,15 +96,7 @@ Figure 3. Comparing Global Featuress Across Models
 ![compare local features across models](compare_local_features_across_models.jpg) 
 Figure 4. Compare Local Features Across Models
 
-![plot_pd_for_all features&models_1.jpg](plot_pd_for_all features&models_1.jpg) 
-Figure 4. Compare Local Features Across Models
-
-
-
-
-![plot Patial dependence for all features and model](plot_pd_for_all features&models_1.jpg) 
-
-, plot_pd_for_all features&models_2.jpg, plot_pd_for_all features&models_3.jpg, plot_pd_for_all features&models_4.jpg) 
+![Plot Partial Difference for all features and models](plot_pd_for_all_features&models_1.jpgplot_pd_for_all_features&models_2.jpgplot_pd_for_all_features&models_3.jpgplot_pd_for_all_features&models_4.jpg)
 Figure 5. Plot partial dependence for all features and models
 
 
