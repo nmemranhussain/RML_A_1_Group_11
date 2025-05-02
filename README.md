@@ -9,9 +9,8 @@
 * **Model implementation code**: [Assignment_1](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_1_template.ipynb), [Assignment_2](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_2_template.ipynb), [Assignment_3](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_3_template_s_309.ipynb), [Assignment_4](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_4_template_final.ipynb), [Assignment_5](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/assign_5_template.ipynb)
  
 ### Intended Use
-* **Primary intended uses**: This model is an *example* probability of default classifier, with an *example* use case for determining eligibility for a credit line increase.
-* **Primary intended users**: Students in GWU DNSC 6301 bootcamp.
-* **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
+* **Primary intended uses**: This model card documents a classification model built and remediated to improve fairness and reduce disparate impact, while maintaining predictive performance. The model is intended for use in decision-making scenarios where fairness is a key consideration, such as admissions, hiring, or lending. It is designed for use by machine learning practitioners and decision-makers seeking both interpretability and accountability in AI systems.
+* **Out-of-scope use cases**: The model is not intended for real-time, high-stakes automated decision-making without human oversight. Any use beyond an educational example is out-of-scope.
 
 ### Training Data
 
@@ -31,7 +30,7 @@
 | **PAY_AMT1 - PAY_AMT6** | inputs | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
 | **DELINQ_NEXT**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
 
-* **Source of training data**: GWU Blackboard, email `jphall@gwu.edu` for more information
+* **Source of training data**: 
 * **How training data was divided into training and validation data**: 50% training, 25% validation, 25% test
 * **Number of rows in training and validation data**:
   * Training rows: 15,000
