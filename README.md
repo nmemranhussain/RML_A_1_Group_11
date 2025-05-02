@@ -39,7 +39,7 @@
 ### Test Data
 * **Source of test data**: [HMDA Test Datasets](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/hmda_test_preprocessed.zip)
 * **Test Set**: 45043 rows, 23 columns
-* **State any differences in columns between training and test data**: None
+* **Any differences in columns between training and test data**: None
 
 ### Model details
 * **Columns used as inputs in the final model**: 'LIMIT_BAL',
