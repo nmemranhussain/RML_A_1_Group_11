@@ -108,7 +108,7 @@ Figure 5. Plot partial dependence for all features and models
 ![Plot Partial Difference for all features and models](plot_pd_4.jpg)
 Figure 5. Plot partial dependence for all features and models
 
-![air_v_auc](Air_v_AUC.jpg)
+![air_v_auc](AIR_v_AUC.jpg)
 Figure 6. Model selection via quality and fairness ( AIR vs. AUC)
 
 
