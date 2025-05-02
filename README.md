@@ -30,15 +30,15 @@
 | **PAY_AMT1 - PAY_AMT6** | inputs | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
 | **DELINQ_NEXT**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
 
-* **Source of training data**: 
+* **Source of training data**: [HMDA Trainning Datasets](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/hmda_train_preprocessed.zip)
 * **How training data was divided into training and validation data**: 50% training, 25% validation, 25% test
 * **Number of rows in training and validation data**:
-  * Training rows: 15,000
-  * Validation rows: 7,500
+  * Training Set: 90084 rows, 23 columns
+  * Validation Set: 45042 rows, 23 columns
 
 ### Test Data
-* **Source of test data**: GWU Blackboard, email `jphall@gwu.edu` for more information
-* **Number of rows in test data**: 7,500
+* **Source of test data**: [HMDA Test Datasets](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/hmda_test_preprocessed.zip)
+* **Test Set**: 45043 rows, 23 columns
 * **State any differences in columns between training and test data**: None
 
 ### Model details
@@ -52,12 +52,27 @@
 * **Version of the modeling software**: 0.22.2.post1
 * **Hyperparameters or other settings of your model**: 
 ```
-DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
-                       max_depth=6, max_features=None, max_leaf_nodes=None,
-                       min_impurity_decrease=0.0, min_impurity_split=None,
-                       min_samples_leaf=1, min_samples_split=2,
-                       min_weight_fraction_leaf=0.0, presort='deprecated',
-                       random_state=12345, splitter='best')
+rem_params = {'max_bins': 512,
+              'max_interaction_bins': 16,
+              'interactions': 10,
+              'outer_bags': 4,
+              'inner_bags': 4,
+              'learning_rate': 0.05,
+              'validation_size': 0.5,
+              'min_samples_leaf': 1,
+              'max_leaves': 3,
+              'n_jobs': 4,
+              'early_stopping_rounds': 100,
+              'random_state': 309}
+
+rem_x_names = ['property_value_std',
+               'conforming',
+               'debt_to_income_ratio_missing',
+               'income_std',
+               'term_360',
+               'no_intro_rate_period_std',
+               'debt_to_income_ratio_std',
+               'intro_rate_period_std']
 ```
 ### Quantitative Analysis
 
