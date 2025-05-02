@@ -114,6 +114,16 @@ Figure 6. Model selection via quality and fairness ( AIR vs. AUC)
 ![model extration attack](visualization_simulated_data_for_extraction_attack.jpg)
 Figure 6. Model Extraction Attack (Simulated Data)
 
+![stolen model](example_of_stolen_model.jpg)
+Figure 6. Stolen Model
+
+![variable importancel](variable_importance.jpg)
+Figure 6. Variable Importance When the Model is Attacked
+
+![sensitivity analysis](sensitivity_analysis.jpg)
+Figure 6. Sensitivity Analysis: Stress Testing using Validation Data
+
+
 
 
 Table 2. Validation AIR values for race and sex groups. 
