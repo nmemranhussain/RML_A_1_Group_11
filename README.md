@@ -77,7 +77,7 @@ rem_x_names = ['property_value_std',
 
 | Train AUC | Validation AUC | Test AUC |
 | ------ | ------- | -------- |
-| 0.7823 | 0.7836  | 0.7832* |
+| 0.7823 | 0.7836  | 0.7832 |
 
 * Plots related with data & model
 
