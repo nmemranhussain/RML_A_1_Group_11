@@ -106,7 +106,7 @@ Figure 5. Partial dependence plot for all features and models
 Figure 5. Partial dependence plot for all features and models
 
 ![air_v_auc](AIR_v_AUC.jpg)
-Figure 6. Model selection (AIR vs. AUC)
+Figure 6. EBM models (AIR vs. AUC)
 
 ![model extration attack](visualization_simulated_data_for_extraction_attack.jpg)
 Figure 7. Model Extraction Attack
