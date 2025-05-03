@@ -39,7 +39,7 @@
 ### Test Data
 * **Source of test data**: [HMDA Test Datasets](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/hmda_test_preprocessed.zip)
 * **Test Set**: 45043 rows, 23 columns
-* **Any differences in columns between training and test data**: Test data dosn't have the 'y variable' and 'hih_priced'
+* **Any differences in columns between training and test data**: Test data dosn't have the 'high_priced'column.
 
 ### Model details
 * **Columns used as inputs in the final model**: **'term_360'**, **'conforming'**, **'debt_to_income_ratio_missing'**, **'loan_amount_std'**, **'loan_to_value_ratio_std'**, **'no_intro_rate_period_std'**, **'intro_rate_period_std'**, **'property_value_std'**, **'income_std'**, **'debt_to_income_ratio_std'**, 
