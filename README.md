@@ -39,7 +39,7 @@
 ### Test Data
 * **Source of test data**: [HMDA Test Datasets](https://github.com/nmemranhussain/RML_A_1_Group_11/blob/main/hmda_test_preprocessed.zip)
 * **Test Set**: 45043 rows, 23 columns
-* **Any differences in columns between training and test data**: None
+* **Any differences in columns between training and test data**: Test data dosn't have the 'y variable' and 'hih_priced'
 
 ### Model details
 * **Columns used as inputs in the final model**: 'LIMIT_BAL',
@@ -91,10 +91,10 @@ Figure 1. Basic Data Exploration
 Figure 2. Correlation Heatmap
 
 ![compare global features across models](Compare_global_feature_across_models.jpg) 
-Figure 3. Comparing Global Featuress Across Models
+Figure 3. Global Featuress Across Models
 
 ![compare local features across models](Compare_local_feature_across_models.jpg) 
-Figure 4. Compare Local Features Across Models
+Figure 4. Local Features Across Models
 
 ![Plot Partial Difference for all features and models](plot_pd_1.jpg)
 Figure 5. Plot partial dependence for all features and models
@@ -109,25 +109,25 @@ Figure 5. Plot partial dependence for all features and models
 Figure 5. Plot partial dependence for all features and models
 
 ![air_v_auc](AIR_v_AUC.jpg)
-Figure 6. Model selection via quality and fairness (AIR vs. AUC)
+Figure 6. Model selection (AIR vs. AUC)
 
 ![model extration attack](visualization_simulated_data_for_extraction_attack.jpg)
-Figure 7. Model Extraction Attack (Simulated Data)
+Figure 7. Model Extraction Attack
 
 ![stolen model](example_of_stolen_model.jpg)
 Figure 8. Stolen Model
 
 ![variable importancel](variable_importance.jpg)
-Figure 9. Variable Importance When the Model is Attacked
+Figure 9. Variable Importance
 
 ![sensitivity analysis](sensitivity_analysis.jpg)
-Figure 10. Sensitivity Analysis: Stress Testing using Validation Data
+Figure 10. Sensitivity Analysis
 
 ![residual analysis](global_logloss_residuals.jpg)
-Figure 10. Residual Analysis using Global Logloss Residual
+Figure 10. Residual Analysis
 
 ### Ethical Consideration
-The best remediated model shows improved fairness and accuracy, but 'potential negative impacts' still remain. From a mathematical or software perspective, issues like overfitting due to excessive remediation (e.g., aggressive fairness constraints or data balancing) could degrade generalizability when deployed on unseen data, particularly if future data distributions shift (data drift). Furthermore, if preprocessing (e.g., one-hot encoding or imputation) introduces bias or is inconsistently applied across training and deployment pipelines, the model could misclassify sensitive applicants. 
+The best remediated model shows improved fairness and accuracy, but 'potential negative impacts' still remain. From a mathematical or software perspective, issues like underfitting due to excessive remediation (e.g., aggressive fairness constraints or data balancing) could degrade generalizability when deployed on unseen data, particularly if future data distributions shift (data drift). Furthermore, if preprocessing (e.g., one-hot encoding or imputation) introduces bias or is inconsistently applied across training and deployment pipelines, the model could misclassify sensitive applicants. 
 
 In terms of real-world risks, the model’s outputs—likely related to credit or loan decisioning based on HMDA data—can affect individuals' financial opportunities. If the model inadvertently disadvantages subpopulations (e.g., low-income or minority groups) due to unaddressed indirect bias, borrowers could face unjust rejections or higher scrutiny, especially during high-stakes financial reviews (e.g., during home loan applications). These risks are more pronounced at the point of deployment by financial institutions and can erode trust or violate legal standards like the Fair Housing Act. Continuous monitoring and human-in-the-loop oversight are essential to ensure the model remains fair, accurate, and ethically sound over time.  
 
