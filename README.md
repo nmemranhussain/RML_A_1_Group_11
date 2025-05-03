@@ -94,13 +94,10 @@ Figure 3. Global Features Across Models
 Figure 4. Local Features Across Models
 
 ![Plot Partial Difference for all features and models](plot_pd_1.jpg)
-Figure 5. Partial dependence plot for all features and models
 
 ![Plot Partial Difference for all features and models](plot_pd_2.jpg)
-Figure 5. Partial dependence plot for all features and models
 
 ![Plot Partial Difference for all features and models](plot_pd_3.jpg)
-Figure 5. Partial dependence plot for all features and models
 
 ![Plot Partial Difference for all features and models](plot_pd_4.jpg)
 Figure 5. Partial dependence plot for all features and models
