@@ -88,7 +88,7 @@ Figure 1. Basic Data Exploration
 Figure 2. Correlation Heatmap
 
 ![compare global features across models](Compare_global_feature_across_models.jpg) 
-Figure 3. Global Featuress Across Models
+Figure 3. Global Features Across Models
 
 ![compare local features across models](Compare_local_feature_across_models.jpg) 
 Figure 4. Local Features Across Models
