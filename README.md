@@ -44,7 +44,7 @@
 ### Model details
 * **Columns used as inputs in the final model**: **'term_360'**, **'conforming'**, **'debt_to_income_ratio_missing'**, **'loan_amount_std'**, **'loan_to_value_ratio_std'**, **'no_intro_rate_period_std'**, **'intro_rate_period_std'**, **'property_value_std'**, **'income_std'**, **'debt_to_income_ratio_std'**, 
 * **Column(s) used as target(s) in the final model**: **'high_priced'**
-* **Type of model**: Decision Tree 
+* **Type of model**: Explainable Boosting Machine (EBM)
 * **Software used to implement the model**: Python, scikit-learn
 * **Version of the modeling software**: numpy: 2.0.2, pandas: 2.2.2, scikit-learn: 1.6.1, matplotlib: 3.10.0, seaborn: 0.13.2, Python 3.11.12
 * **Hyperparameters or other settings of the model**: 
